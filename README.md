@@ -1,4 +1,4 @@
-# go_graphql_mongodb
+Go Graphql Mongodb
 
 # Install GraphQL Package 
 go get github.com/99designs/gqlgen
@@ -19,6 +19,13 @@ go run github.com/99designs/gqlgen generate
 
 # Install Mongo Driver 
 go get go.mongodb.org/mongo-driver/mongo
+
+
+# Output 
+go run server.go 
+
+`Goto http://localhost:8080` 
+
 
 # Get All Jobs
 query GetAllJobs {
